@@ -1,0 +1,60 @@
+<h1 align="center">Dynamic Data Visualisation</h1>
+    <div class="form-group">
+      <label for="country">Country</label>
+      <input type="text" name="country" id="country" placeholder="Country" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="population">Population</label>
+      <input type="number" name="population" id="population" placeholder="Population" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="density">Density</label>
+      <input type="number" name="density" id="density" placeholder="Density" class="form-control">
+    </div>
+    <button class="button" id="add-btn" value="Submit">Add</button>
+    <button class="button" id="rm-btn">Remove</button>
+    <div class="container">
+      <table id="dt-table" class="display cell-border">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Population (2018)</th>
+            <th>Density (P/Km²)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>China</td>
+            <td>1,415,045,928</td>
+            <td>151</td>
+          </tr>
+          <tr>
+            <td>India</td>
+            <td>1,354,051,854</td>
+            <td>455</td>
+          </tr>
+          <tr>
+            <td>U.S.</td>
+            <td>326,766,748</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <td>Brazil</td>
+            <td>210,867,954</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Pakistan</td>
+            <td>200,813,818</td>
+            <td>260</td>
+          </tr>
+          <tr>
+            <td>Bangladesh</td>
+            <td>166,368,149</td>
+            <td>1,278</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <div id="chart"></div>
+    </div>
